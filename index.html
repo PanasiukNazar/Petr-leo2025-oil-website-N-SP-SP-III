@@ -70,7 +70,7 @@ https://templatemo.com/tm-573-eduwell
                                     >
                                 </li>
                                 <li class="scroll-to-section">
-                                    <a href="contact-us.html">Contáctanos</a>
+                                    <a href="index.html#contact">Contáctanos</a>
                                 </li>
                             </ul>
                             <a class="menu-trigger">
@@ -587,10 +587,105 @@ https://templatemo.com/tm-573-eduwell
         </section>
         <!-- ***** Testimonials Section End ***** -->
 
-        <!-- ***** Contact Us Section Start ***** -->
-        <section class="contact-us contact-bg" id="contact-section">
+        <section class="contact-us" id="contact">
             <div class="container">
                 <div class="row">
+                    <div class="col-lg-8">
+                        <div id="map">
+                            <!-- You just need to go to Google Maps for your own map point, and copy the embed code from Share -> Embed a map section -->
+                            <div class="row">
+                                <div class="col-lg-12 offset-lg-1">
+                                    <div class="contact-info">
+                                        <div class="icon">
+                                            <i class="fa fa-user"></i>
+                                        </div>
+                                        <h4>Email</h4>
+                                        <span>petróleo_2025@gmail.com</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-12 mb-5">
+                        <form id="contact" action="thanks.html" method="get">
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div class="section-heading">
+                                        <h6>Contáctanos</h6>
+                                        <h4>
+                                            Conéctate con Nuestros Expertos en
+                                            Apertura de Estaciones de Servicio
+                                        </h4>
+                                        <p>
+                                            Si deseas conocer más sobre nuestros
+                                            servicios de consultoría en la
+                                            apertura de estaciones de servicio y
+                                            en la extracción de recursos
+                                            naturales, no dudes en ponerte en
+                                            contacto. Estamos aquí para ayudarte
+                                            a maximizar la eficiencia y
+                                            rentabilidad de tu inversión.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-12">
+                                    <fieldset>
+                                        <input
+                                            type="name"
+                                            name="name"
+                                            id="name"
+                                            placeholder="Nombre Completo"
+                                            autocomplete="on"
+                                            required
+                                        />
+                                    </fieldset>
+                                </div>
+                                <div class="col-lg-12">
+                                    <fieldset>
+                                        <input
+                                            type="text"
+                                            name="email"
+                                            id="email"
+                                            pattern="[^ @]*@[^ @]*"
+                                            placeholder="Tu Correo Electrónico"
+                                            required
+                                        />
+                                    </fieldset>
+                                </div>
+                                <div class="col-lg-12">
+                                    <fieldset>
+                                        <input
+                                            type="number"
+                                            name="number"
+                                            placeholder="Número de Teléfono"
+                                            required
+                                        />
+                                    </fieldset>
+                                </div>
+                                <div class="col-lg-12">
+                                    <fieldset>
+                                        <textarea
+                                            name="message"
+                                            id="message"
+                                            placeholder="Tu Mensaje"
+                                            required
+                                        ></textarea>
+                                    </fieldset>
+                                </div>
+                                <div class="col-lg-12">
+                                    <fieldset>
+                                        <button
+                                            type="submit"
+                                            id="form-submit"
+                                            class="main-gradient-button"
+                                        >
+                                            Enviar Mensaje
+                                        </button>
+                                    </fieldset>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
                     <div class="col-lg-4 mb-4">
                         <h3 style="color: #fff">Petróleo2025</h3>
                         <p style="color: #fff">
@@ -625,13 +720,7 @@ https://templatemo.com/tm-573-eduwell
                                     >Política de Privacidad</a
                                 >
                             </li>
-                            <li>
-                                <a
-                                    style="color: #fff"
-                                    href="privacy-policy.html"
-                                    >Política de Cookies</a
-                                >
-                            </li>
+
                             <li>
                                 <a style="color: #fff" href="terms-of-use.html"
                                     >Términos de Uso</a
@@ -666,37 +755,10 @@ https://templatemo.com/tm-573-eduwell
                 </div>
             </div>
         </section>
-        <!-- ***** Contact Us Section End ***** -->
-
-        <!-- Cookie banner -->
-        <div class="cookie-wrapper show">
-            <div>
-                <i class="bx bx-cookie"></i>
-                <h2 style="text-align: center">Política de Cookies</h2>
-            </div>
-
-            <div class="data">
-                <p>
-                    Este sitio web utiliza cookies para garantizar una
-                    experiencia de usuario óptima. Las cookies son pequeños
-                    archivos de texto que se almacenan en su dispositivo y
-                    ayudan con la funcionalidad del sitio, además de recopilar
-                    estadísticas anónimas sobre su uso. Al utilizar nuestro
-                    sitio web, usted consiente el uso de cookies de acuerdo con
-                    nuestra política de cookies.
-                </p>
-            </div>
-
-            <div class="buttons">
-                <button class="cookie-button" id="acceptBtn">Aceptar</button>
-                <button class="cookie-button" id="declineBtn">Rechazar</button>
-            </div>
-        </div>
-        <!-- End Cookie banner -->
 
         <!-- Scripts -->
         <!-- Bootstrap core JavaScript -->
-        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="vendor/jquery/jquery.min.js"></script>
 
         <script src="assets/js/isotope.min.js"></script>
         <script src="assets/js/owl-carousel.js"></script>
@@ -705,6 +767,5 @@ https://templatemo.com/tm-573-eduwell
         <script src="assets/js/video.js"></script>
         <script src="assets/js/slick-slider.js"></script>
         <script src="assets/js/custom.js"></script>
-        <script src="assets/js/cookiebanner.js"></script>
     </body>
 </html>
